@@ -1,0 +1,29 @@
+WEBVTT 
+
+1
+00:00:01.000 --> 00:00:05.000
+Welcome to this quick video demonstration. 
+
+2
+00:00:07.000 --> 00:00:12.000
+In this first section, we are exploring the structure of an SRT file. 
+
+3
+00:00:15.000 --> 00:00:20,000
+Notice how each caption entry has a sequence number and precise timestamps. 
+
+4
+00:00:25.000 --> 00:00:30,000
+We are now halfway through our one-minute video runtime. 
+
+5
+00:00:35.000 --> 00:00:40,000
+You can easily edit these text lines using any basic text editor. 
+
+6
+00:00:45.000 --> 00:00:50,000
+Make sure to keep the exact arrow symbols and comma format for the milliseconds. 
+
+7
+00:00:55.000 --> 00:01:00,000
+Thank you for watching this full one-minute caption test!
