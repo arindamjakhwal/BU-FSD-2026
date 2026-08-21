@@ -1,0 +1,105 @@
+function calc() {
+    x = 12;
+    y = 10;
+    z = x + y
+    console.log("sum is",z);
+}
+undefined
+calc()
+VM447:5 sum is 22
+undefined
+z1 = x + y;
+22
+x
+12
+y
+10
+function calc() {
+    var x1 = 12;
+    var y1 = 10;
+    var result = x1 + y1
+    console.log("sum is",result);
+}
+undefined
+calc();
+VM648:5 sum is 22
+undefined
+x1
+VM701:1 Uncaught ReferenceError: x1 is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM701:1
+function calc() {
+    let x1 = 12;
+    let y1 = 10;
+    let result = x1 + y1
+    console.log("sum is",result);
+}
+undefined
+calc()
+VM720:5 sum is 22
+undefined
+x1
+VM744:1 Uncaught ReferenceError: x1 is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM744:1
+function calc() {
+    var name = "Ram"
+    if (name == "Ram") {
+        var name = "Shyam";
+        console.log("Name inside if is",name);
+    }
+    console.log("Name outside if is",name);
+}
+undefined
+calc()
+VM847:5 Name inside if is Shyam
+VM847:7 Name outside if is Shyam
+undefined
+function calc() {
+    let name = "Ram"
+    if (name == "Ram") {
+        let name = "Shyam";
+        console.log("Name inside if is",name);
+    }
+    console.log("Name outside if is",name);
+}
+undefined
+calc()
+VM880:5 Name inside if is Shyam
+VM880:7 Name outside if is Ram
+undefined
+function calc() {
+    var name = "Ram"
+    if (name == "Ram") {
+        let name = "Shyam";
+        console.log("Name inside if is",name);
+    }
+    console.log("Name outside if is",name);
+}
+undefined
+calc()
+VM907:5 Name inside if is Shyam
+VM907:7 Name outside if is Ram
+undefined
+function calc() {
+    let name = "Ram"
+    if (name == "Ram") {
+        var name = "Shyam";
+        console.log("Name inside if is",name);
+    }
+    console.log("Name outside if is",name);
+}
+VM949:4 Uncaught SyntaxError: Identifier 'name' has already been declared (at VM949:4:13)
+let count = 0;
+undefined
+function counter() {
+    count += 1;
+    return count;
+}
+undefined
+counter()
+1
+counter()
+2
+counter()
+3
