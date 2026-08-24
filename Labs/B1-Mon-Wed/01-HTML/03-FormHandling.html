@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        textarea {
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Form Handling</h1>
+
+    <!-- 
+        SignIn, Login,  
+        Search bar
+        Mail
+        Post, Comment
+    -->
+        <!-- HTTP Methods - GET, POST, DELETE, PATCH, UPDATE -->
+    <form action="#" method="GET" enctype="multipart/form-data">
+        <label for="username">Enter your name</label>
+        <input type="text" placeholder="Enter Username" id="username" name="username" required value="Ram" readonly>
+        <br><br>
+        <label for="email">Enter your email</label>
+        <input type="email" placeholder="Enter your email" id="email" required value="ram@gmail.com" readonly>
+        <br><br>
+        <label for="password">Enter your password</label>
+        <input type="password" placeholder="Enter Password" id="password" name="userpwd" required value="12345" readonly>
+        <br><br>
+        <label for="">Search</label>
+        <input type="search" autofocus placeholder="Search anything..." maxlength="20">
+        <br><br>
+        <label for="">Enter DOB</label>
+        <input type="date"/> 
+        <input type="time"/>
+        <input type="datetime-local">
+        <br><br>
+        <label for="">Enter Age</label>
+        <input type="number" placeholder="Enter your age" max="50" min="18">
+        <br><br>
+        <label for="">Select Range</label>
+        <input onchange="progress.value=value" type="range" value="10" min="0" max="100">
+        <output id="op">100</output>
+        <br><br>
+        <label for="">Your Progress</label>
+        <progress id="progress" max="100" value="20"></progress>
+        <br><br>
+        <label for="">Your Message</label>
+        <textarea rows="5" cols="100"></textarea>
+        <input type="submit" value="Register">
+    </form>
+    
+</body>
+</html>
